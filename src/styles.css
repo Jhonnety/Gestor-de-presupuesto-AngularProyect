@@ -1,1 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('./assets/fondo1.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+}
+.fontTitle{
+    font-family: 'Zen Dots', cursive;
+    color: white;
+    text-transform: uppercase;
+}
+.fontWhite{
+    font-family: 'Zen Dots', cursive;
+    color: white;
+}
+.fontBlack{
+    font-family: 'Zen Dots', cursive;
+    color: rgb(53, 53, 53);
+}

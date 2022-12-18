@@ -1,0 +1,15 @@
+<h4 class="text-center fontBlack">Ingresar gasto</h4>
+<hr>
+<div  *ngIf="formularioIncorrecto" class="text-center m-4">
+    <span class="alert alert-danger" role="alert" >{{textIncorrecto | uppercase}}</span>
+    <!--El pipe uppercase es para que ponga todas las letras en mayuscula -->
+</div>
+<div class="form-group mb-4">
+    <label class="fontBlack" for="gasto">Gasto</label>
+    <input type="text" ig="gasto" [(ngModel)]="nombreGasto" class="form-control form-control-lg" placeholder="Ej: comida..">
+</div>
+<div class="form-group mb-4">
+    <label class="fontBlack" for="cantidad">Cantidad</label>
+    <input type="number" [(ngModel)]="cantidad" ig="cantidad" class="form-control form-control-lg" placeholder="Ingrese cantidad..">
+</div>
+<button class="btn btn-secondary btn-lg btn-block mt-2 fontWhite" (click)="agregarGasto()">AGREGAR GASTO</button>

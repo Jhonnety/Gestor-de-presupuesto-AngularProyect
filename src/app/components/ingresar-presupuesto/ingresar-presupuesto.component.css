@@ -1,0 +1,11 @@
+input{
+    text-align: center;
+}
+button{
+    width: 100%;
+}
+.card{
+    width: 60%;
+    margin: auto;
+    padding: 10px;
+}
